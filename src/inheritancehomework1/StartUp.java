@@ -15,6 +15,8 @@ public class StartUp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        SuperHero hero = new SuperHero();
+        hero.usePower("Save people and fight against evil");
         // TODO code application logic here
     }
     

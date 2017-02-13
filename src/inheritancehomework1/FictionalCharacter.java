@@ -10,33 +10,22 @@ package inheritancehomework1;
  * @author Sanuth
  */
 public class FictionalCharacter {
-    double price;
-    String name;
-    boolean costume;
-    String type;
-
-    public boolean isCostume() {
-        return costume;
-    }
-
-    public void setCostume(boolean costume) {
-        this.costume = costume;
-    }
+    private String name;
+    private double lifeTime;
 
     public String getName() {
         return name;
     }
 
+    public double getLifeTime() {
+        return lifeTime;
+    }
+
+    public void setLifeTime(double lifeTime) {
+        this.lifeTime = lifeTime;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-    
 }
